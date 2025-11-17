@@ -50,7 +50,7 @@ class BankingMenu extends BankAccountSimulator {
 
   // BankingMenu(this.account_balance, super.account_name, super.initial_deposit);
 
-  BankingMenu(String account_name, double initial_deposit)
+  BankingMenu(String account_name, int initial_deposit)
     : account_balance = initial_deposit,
       super(account_name, initial_deposit);
 
